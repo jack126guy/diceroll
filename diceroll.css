@@ -1,0 +1,29 @@
+body {
+	margin: 0px;
+}
+.diceroll-header, .diceroll-content {
+	position: fixed;
+}
+.diceroll-header {
+	width: 100%;
+	top: 0%;
+	height: 20%;
+	background-color: #ddddff;
+	font-family: sans-serif;
+}
+.diceroll-header * {
+	text-align: center;
+}
+.diceroll-header p {
+	margin: 0.25em;
+}
+.diceroll-title {
+	margin: 0.25em;
+	font-size: 200%;
+}
+#diceroll-info {
+	display: none;
+}
+.diceroll-content {
+	top: 20%;
+}
