@@ -23,6 +23,11 @@
 		'b1WWpKEPdT4',
 		'9NcPvmk4vfo',
 		'SQoA_wjmE9w',
+		'Gc2u6AFImn8',
+		'KykFbfCMizo',
+		'gzSxBoxxzVM',
+		'CotXWxTBIZE',
+		'DFp2cE7qHqA',
 	];
 
 	var rickrolls = [];
