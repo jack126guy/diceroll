@@ -2,12 +2,13 @@
 	'use strict';
 	function makeYoutubeVideos(ids) {
 		var videos = [];
-		ids.forEach(function(id) {
+		var length = ids.length;
+		for(var i = 0; i < length; i++) {
 			videos.push({
-				src: 'https://www.youtube-nocookie.com/embed/' + id + '?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1',
-				link: 'https://www.youtube.com/watch?v=' + id,
+				src: 'https://www.youtube-nocookie.com/embed/' + ids[i] + '?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1',
+				link: 'https://www.youtube.com/watch?v=' + ids[i],
 			});
-		});
+		}
 		return videos;
 	}
 
