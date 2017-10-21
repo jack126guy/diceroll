@@ -15,15 +15,14 @@ body {
 .diceroll-header * {
 	text-align: center;
 }
-.diceroll-header p {
-	margin: 0.25em;
-}
 .diceroll-title {
-	margin: 0.25em;
 	font-size: 200%;
 }
 #diceroll-info {
 	display: none;
+}
+.diceroll-info-container > * {
+	margin: 0.25em;
 }
 .diceroll-links {
 	list-style-type: none;
