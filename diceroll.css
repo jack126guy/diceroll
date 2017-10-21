@@ -25,6 +25,14 @@ body {
 #diceroll-info {
 	display: none;
 }
+.diceroll-links {
+	list-style-type: none;
+	padding: 0px;
+}
+.diceroll-links li {
+	display: inline-block;
+	margin: 0em 0.5em;
+}
 .diceroll-content {
 	top: 20%;
 	height: 80%;
