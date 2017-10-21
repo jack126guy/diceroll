@@ -8,6 +8,7 @@ body {
 	width: 100%;
 	top: 0%;
 	height: 20%;
+	overflow-y: auto;
 	background-color: #ddddff;
 	font-family: sans-serif;
 }
